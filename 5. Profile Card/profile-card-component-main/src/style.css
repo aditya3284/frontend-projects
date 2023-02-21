@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+:root {
+	--Light-grey: hsl(227, 10%, 46%);
+	--Dark-cyan-background: hsl(185, 75%, 39%);
+	--Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	font-size: 16px;
+	font-family: "Kumbh Sans", sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: var(--Dark-cyan-background);
+	background-image: url(../images/bg-pattern-top.svg),
+		url(../images/bg-pattern-bottom.svg);
+	background-repeat: no-repeat;
+	background-position: bottom -70% left -70%, top -80% right -80%;
+}
+
+h1 {
+	font-size: 18px;
+	font-weight: 700;
+	color: var(--Very-dark-desaturated-blue);
+}
+
+.card {
+	width: 350px;
+}
+
+.top {
+	position: relative;
+	height: 300px;
+	background-color: white;
+}
+
+.details {
+	display: flex;
+	font-size: 14px;
+	flex-direction: column;
+	align-items: center;
+	margin-block: 75px;
+	color: var(--Light-grey);
+}
+
+.intro {
+	display: flex;
+	font-size: 18px;
+	align-items: baseline;
+	width: 45%;
+	justify-content: space-evenly;
+	margin-bottom: 0.6em;
+}
+
+.data {
+	height: 90px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: white;
+	border-top: solid 1px hsla(0, 0%, 59%, 0.3);
+	border-bottom-left-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+	color: var(--Light-grey);
+}
+
+.Data-metric {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 11px;
+	letter-spacing: 1.5px;
+}
+
+.metric {
+	letter-spacing: normal;
+	font-size: 18px;
+	font-weight: 700;
+	color: var(--Very-dark-desaturated-blue);
+	margin-bottom: 0.3rem;
+}
+
+.attribution {
+	position: sticky;
+	top: 96%;
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+#bg,
+.top {
+	max-width: 100%;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+}
+
+#avatar {
+	position: absolute;
+	top: 30%;
+	left: 125px;
+	border: solid 5px white;
+	border-radius: 50%;
+}
