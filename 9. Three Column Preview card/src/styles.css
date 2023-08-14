@@ -128,13 +128,11 @@ img {
 }
 
 footer {
-    position: absolute;
-    bottom: 5px;
+    position: fixed;
+    bottom: 2px;
 }
 
 .attribution {
-    position: absolute;
-    bottom: 5px;
     font-size: 11px;
     text-align: center;
 }
