@@ -15,7 +15,11 @@
 
 body {
 	background-color: var(--very-dark-blue);
+<<<<<<< HEAD
 	min-height: 100vh;
+=======
+	height: 100vh;
+>>>>>>> f5162782146265a17afc713a270257c1b1b6108c
 	width: 100vw;
 	font-family: "Overpass", sans-serif;
 }
@@ -28,10 +32,13 @@ main {
 	align-items: center;
 }
 
+<<<<<<< HEAD
 h1 {
 	display: none;
 }
 
+=======
+>>>>>>> f5162782146265a17afc713a270257c1b1b6108c
 h2 {
 	color: var(--white);
 	padding: 30px 0px 10px 0px;
